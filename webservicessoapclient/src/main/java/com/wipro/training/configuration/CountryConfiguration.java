@@ -21,7 +21,7 @@ public class CountryConfiguration {
     @Bean
     public CountryClient quoteClient(Jaxb2Marshaller marshaller) {
         CountryClient client = new CountryClient();
-        client.setDefaultUri("http://localhost:8080/ws/countries.wsdl");
+        client.setDefaultUri("http://localhost:8083/ws/countries.wsdl");
         client.setMarshaller(marshaller);
         client.setUnmarshaller(marshaller);
         return client;

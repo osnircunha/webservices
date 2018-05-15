@@ -62,7 +62,7 @@
                     <generatePackage>com.wipro.training.wsdl</generatePackage>
                     <schemas>
                         <schema>
-                            <url>http://localhost:8080/ws/countries.wsdl</url>
+                            <url>http://localhost:8083/ws/countries.wsdl</url>
                         </schema>
                     </schemas>
                 </configuration>
